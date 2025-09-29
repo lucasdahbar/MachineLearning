@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import pickle
 
-# Seção 3
+# Seção 3.
 
 base_credit = pd.read_csv('analisecredito/credit_data.csv')
 print("Primeiros 5 valores: \n", base_credit.head(5))
